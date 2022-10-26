@@ -21,6 +21,8 @@ def get_filters():
     while True:
         city = input("\nWhich city would you like to filter by? Type in (new york city, chicago, washington)\n")
         city = city.lower()
+        if city == "washington":
+            print("\nNote: Washington data does not include gender or date of birth\n")
         if city not in ("new york city", "chicago", "washington"):
             print("Please type one of the three cities provided above.")
             continue
