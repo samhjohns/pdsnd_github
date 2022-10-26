@@ -14,9 +14,9 @@ Explore US Bikeshare Data using Python
 
 ### What was required
 First you will need to have the following 3 files downloaded:
-chicago.csv
-new_york_city.csv
-washington.csv
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 You will also need to have Python, a text editor (atom), and a terminal application (git bash).
 
